@@ -1,0 +1,6 @@
+framework module Pods_SimpleGradientButton_Example {
+  umbrella header "Pods-SimpleGradientButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

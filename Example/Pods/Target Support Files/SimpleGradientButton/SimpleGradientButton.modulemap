@@ -1,0 +1,6 @@
+framework module SimpleGradientButton {
+  umbrella header "SimpleGradientButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

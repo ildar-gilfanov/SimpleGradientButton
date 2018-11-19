@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3546BCB76A60D5A6DBA278A761DA1FCB /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB14039A7552724A7F0F02D06F54E71 /* GradientColor.swift */; };
+		3E1BF66B1B6A01ADFFAB2F6FF9CE6AD1 /* CGPoint+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934634B438797919F9AAC1AA74DAE99 /* CGPoint+Constants.swift */; };
+		3F9BC1E2FC64211A7CA15EAC75F714C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		643B1A0DC59446F9172178F2192FB3DF /* SimpleGradientButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 695DD31024D8BC672EE547FF2337D76F /* SimpleGradientButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE8FFC5F8C930490CFA5202B8FC1701 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5125830A7E0ACEF70B935F5F27A008B /* GradientButton.swift */; };
+		8FEAC9BB0AD8D97780377D2BC43AAB63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9D489875EB5C5116A74E40D844E7C37D /* Pods-SimpleGradientButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D854F6190286C4970C520CDB4C8E342 /* Pods-SimpleGradientButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07D6698B402E5A1B62BE848EE24981B /* UIControl.State+Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251D7847A5BABD1CBA7161A9A335893 /* UIControl.State+Hashable.swift */; };
+		E6F9E4BA7FF9C09D96503D94A1F8F954 /* Pods-SimpleGradientButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E61761BA4B5517494C08C7F6E1A8BE /* Pods-SimpleGradientButton_Example-dummy.m */; };
+		F4D24C15210F1D3EF622ED1C17ED08A2 /* SimpleGradientButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A3DB69549581217D24C703F9E30B6 /* SimpleGradientButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B69CCBBC143190EC9A250A499C06C5A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAB5F3D00B18A20F8CCD9A3FA5B5B02;
+			remoteInfo = SimpleGradientButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06EE21E18F148EC2789E8CB86A276774 /* Pods-SimpleGradientButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleGradientButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		30B085553409FEF839B9109C655CF3FE /* SimpleGradientButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleGradientButton-prefix.pch"; sourceTree = "<group>"; };
+		51811F6FE325AB837386CD1BA416FD19 /* SimpleGradientButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleGradientButton.xcconfig; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CB14039A7552724A7F0F02D06F54E71 /* GradientColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientColor.swift; path = Sources/GradientColor.swift; sourceTree = "<group>"; };
+		5ECC3898034192EA5863F6A197388A48 /* Pods-SimpleGradientButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleGradientButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		62C0C9F718966CDE0F4574240B936892 /* Pods-SimpleGradientButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleGradientButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		695DD31024D8BC672EE547FF2337D76F /* SimpleGradientButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleGradientButton-umbrella.h"; sourceTree = "<group>"; };
+		69E9A601BB28AFDFBE809B43BF539396 /* SimpleGradientButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SimpleGradientButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D2EF0CC03B61CF0CCF5182D48365352 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85865B5E9ECE99076E0A5D72A98A3AA0 /* Pods-SimpleGradientButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleGradientButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		869A9FF2A2C58B4972A0FA9170424E2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8EEC3F949EA1E62D2E69C9745886D574 /* Pods-SimpleGradientButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleGradientButton_Example-resources.sh"; sourceTree = "<group>"; };
+		91AF91373B9E37D180BA369AD5F6D469 /* Pods_SimpleGradientButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleGradientButton_Example.framework; path = "Pods-SimpleGradientButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950A3DB69549581217D24C703F9E30B6 /* SimpleGradientButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleGradientButton-dummy.m"; sourceTree = "<group>"; };
+		9934634B438797919F9AAC1AA74DAE99 /* CGPoint+Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Constants.swift"; path = "Sources/CGPoint+Constants.swift"; sourceTree = "<group>"; };
+		9D854F6190286C4970C520CDB4C8E342 /* Pods-SimpleGradientButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleGradientButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		AA0D0F19F562B676DB7AC50D7D820B1C /* Pods-SimpleGradientButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleGradientButton_Example.modulemap"; sourceTree = "<group>"; };
+		B0572C158B56578F90E0CAAEB55D4EAE /* SimpleGradientButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleGradientButton.modulemap; sourceTree = "<group>"; };
+		B5125830A7E0ACEF70B935F5F27A008B /* GradientButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientButton.swift; path = Sources/GradientButton.swift; sourceTree = "<group>"; };
+		B5B8F080EF614E3E4A524000A0B8916C /* Pods-SimpleGradientButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleGradientButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D23C047341BC8C4DCF0588B9D5F1850F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D251D7847A5BABD1CBA7161A9A335893 /* UIControl.State+Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl.State+Hashable.swift"; path = "Sources/UIControl.State+Hashable.swift"; sourceTree = "<group>"; };
+		DE56CA98330FC78E68C26E6390B1C14D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E3036AEB059E40A8B20A675DAC8DD8AE /* SimpleGradientButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleGradientButton.framework; path = SimpleGradientButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E61761BA4B5517494C08C7F6E1A8BE /* Pods-SimpleGradientButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleGradientButton_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC358AA54F79F134A3F806359860958C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEAC9BB0AD8D97780377D2BC43AAB63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0C7660A346827DE9411048BE3AF8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9BC1E2FC64211A7CA15EAC75F714C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000D3098B7D9F1D3CB1FFAA0E973443B /* SimpleGradientButton */ = {
+			isa = PBXGroup;
+			children = (
+				9934634B438797919F9AAC1AA74DAE99 /* CGPoint+Constants.swift */,
+				B5125830A7E0ACEF70B935F5F27A008B /* GradientButton.swift */,
+				5CB14039A7552724A7F0F02D06F54E71 /* GradientColor.swift */,
+				D251D7847A5BABD1CBA7161A9A335893 /* UIControl.State+Hashable.swift */,
+				D73F09B407763B0BDF25D26F2ED09DAF /* Pod */,
+				06D38153D27203C6E5B195EF6AD21E53 /* Support Files */,
+			);
+			name = SimpleGradientButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		06D38153D27203C6E5B195EF6AD21E53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D2EF0CC03B61CF0CCF5182D48365352 /* Info.plist */,
+				B0572C158B56578F90E0CAAEB55D4EAE /* SimpleGradientButton.modulemap */,
+				51811F6FE325AB837386CD1BA416FD19 /* SimpleGradientButton.xcconfig */,
+				950A3DB69549581217D24C703F9E30B6 /* SimpleGradientButton-dummy.m */,
+				30B085553409FEF839B9109C655CF3FE /* SimpleGradientButton-prefix.pch */,
+				695DD31024D8BC672EE547FF2337D76F /* SimpleGradientButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleGradientButton";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C6AA3A771982BBC1E059C76ABF05F89 /* Pods-SimpleGradientButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D23C047341BC8C4DCF0588B9D5F1850F /* Info.plist */,
+				AA0D0F19F562B676DB7AC50D7D820B1C /* Pods-SimpleGradientButton_Example.modulemap */,
+				B5B8F080EF614E3E4A524000A0B8916C /* Pods-SimpleGradientButton_Example-acknowledgements.markdown */,
+				5ECC3898034192EA5863F6A197388A48 /* Pods-SimpleGradientButton_Example-acknowledgements.plist */,
+				E8E61761BA4B5517494C08C7F6E1A8BE /* Pods-SimpleGradientButton_Example-dummy.m */,
+				85865B5E9ECE99076E0A5D72A98A3AA0 /* Pods-SimpleGradientButton_Example-frameworks.sh */,
+				8EEC3F949EA1E62D2E69C9745886D574 /* Pods-SimpleGradientButton_Example-resources.sh */,
+				9D854F6190286C4970C520CDB4C8E342 /* Pods-SimpleGradientButton_Example-umbrella.h */,
+				62C0C9F718966CDE0F4574240B936892 /* Pods-SimpleGradientButton_Example.debug.xcconfig */,
+				06EE21E18F148EC2789E8CB86A276774 /* Pods-SimpleGradientButton_Example.release.xcconfig */,
+			);
+			name = "Pods-SimpleGradientButton_Example";
+			path = "Target Support Files/Pods-SimpleGradientButton_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7DF674ECB8AF6446076D3DAF7DED50AC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EDBB9D57D00F8DB79DFF087C43694D3C /* Products */,
+				C72DFC4841C14B589DF9D4CF4A8053B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF674ECB8AF6446076D3DAF7DED50AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				000D3098B7D9F1D3CB1FFAA0E973443B /* SimpleGradientButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C72DFC4841C14B589DF9D4CF4A8053B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C6AA3A771982BBC1E059C76ABF05F89 /* Pods-SimpleGradientButton_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D73F09B407763B0BDF25D26F2ED09DAF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE56CA98330FC78E68C26E6390B1C14D /* LICENSE */,
+				869A9FF2A2C58B4972A0FA9170424E2E /* README.md */,
+				69E9A601BB28AFDFBE809B43BF539396 /* SimpleGradientButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EDBB9D57D00F8DB79DFF087C43694D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91AF91373B9E37D180BA369AD5F6D469 /* Pods_SimpleGradientButton_Example.framework */,
+				E3036AEB059E40A8B20A675DAC8DD8AE /* SimpleGradientButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B0DBA36385E43EB2F843CDB2FAC7446 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D489875EB5C5116A74E40D844E7C37D /* Pods-SimpleGradientButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB7ED80D1B1E6302033F7B2510981F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643B1A0DC59446F9172178F2192FB3DF /* SimpleGradientButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04DD7D092670C9ABFEFE6E16122F750F /* Pods-SimpleGradientButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585406F3C3AE3B19F7C6E09342AF6C43 /* Build configuration list for PBXNativeTarget "Pods-SimpleGradientButton_Example" */;
+			buildPhases = (
+				2B0DBA36385E43EB2F843CDB2FAC7446 /* Headers */,
+				478018D4DC835A27078A421BF57ECBEC /* Sources */,
+				FC0C7660A346827DE9411048BE3AF8D4 /* Frameworks */,
+				F16671925DDA30ED5032826FA587DD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190EAC1F301198CD6F03F712DF6C5E38 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleGradientButton_Example";
+			productName = "Pods-SimpleGradientButton_Example";
+			productReference = 91AF91373B9E37D180BA369AD5F6D469 /* Pods_SimpleGradientButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFAB5F3D00B18A20F8CCD9A3FA5B5B02 /* SimpleGradientButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39258B5E74E0FB46C4829C9D71D055B1 /* Build configuration list for PBXNativeTarget "SimpleGradientButton" */;
+			buildPhases = (
+				AFB7ED80D1B1E6302033F7B2510981F1 /* Headers */,
+				28AF380EEAF5B239CF5CCB6CA3A5C12F /* Sources */,
+				DC358AA54F79F134A3F806359860958C /* Frameworks */,
+				D947165555457AA37B58AB10FD5666A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGradientButton;
+			productName = SimpleGradientButton;
+			productReference = E3036AEB059E40A8B20A675DAC8DD8AE /* SimpleGradientButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EDBB9D57D00F8DB79DFF087C43694D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DD7D092670C9ABFEFE6E16122F750F /* Pods-SimpleGradientButton_Example */,
+				BFAB5F3D00B18A20F8CCD9A3FA5B5B02 /* SimpleGradientButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D947165555457AA37B58AB10FD5666A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16671925DDA30ED5032826FA587DD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28AF380EEAF5B239CF5CCB6CA3A5C12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1BF66B1B6A01ADFFAB2F6FF9CE6AD1 /* CGPoint+Constants.swift in Sources */,
+				8AE8FFC5F8C930490CFA5202B8FC1701 /* GradientButton.swift in Sources */,
+				3546BCB76A60D5A6DBA278A761DA1FCB /* GradientColor.swift in Sources */,
+				F4D24C15210F1D3EF622ED1C17ED08A2 /* SimpleGradientButton-dummy.m in Sources */,
+				C07D6698B402E5A1B62BE848EE24981B /* UIControl.State+Hashable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478018D4DC835A27078A421BF57ECBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F9E4BA7FF9C09D96503D94A1F8F954 /* Pods-SimpleGradientButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190EAC1F301198CD6F03F712DF6C5E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleGradientButton;
+			target = BFAB5F3D00B18A20F8CCD9A3FA5B5B02 /* SimpleGradientButton */;
+			targetProxy = B69CCBBC143190EC9A250A499C06C5A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		351A7CB11C01D381EAFAF29292490D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51811F6FE325AB837386CD1BA416FD19 /* SimpleGradientButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleGradientButton/SimpleGradientButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleGradientButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleGradientButton/SimpleGradientButton.modulemap";
+				PRODUCT_MODULE_NAME = SimpleGradientButton;
+				PRODUCT_NAME = SimpleGradientButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4289B20E5228148FFDD1FA7849DA3CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C0C9F718966CDE0F4574240B936892 /* Pods-SimpleGradientButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleGradientButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleGradientButton_Example/Pods-SimpleGradientButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F288ECCC69E05DC29AAA744CD7D96BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51811F6FE325AB837386CD1BA416FD19 /* SimpleGradientButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleGradientButton/SimpleGradientButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleGradientButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleGradientButton/SimpleGradientButton.modulemap";
+				PRODUCT_MODULE_NAME = SimpleGradientButton;
+				PRODUCT_NAME = SimpleGradientButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD77AE530507787B3ABC264F16A1BE6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06EE21E18F148EC2789E8CB86A276774 /* Pods-SimpleGradientButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleGradientButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleGradientButton_Example/Pods-SimpleGradientButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39258B5E74E0FB46C4829C9D71D055B1 /* Build configuration list for PBXNativeTarget "SimpleGradientButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F288ECCC69E05DC29AAA744CD7D96BB /* Debug */,
+				351A7CB11C01D381EAFAF29292490D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585406F3C3AE3B19F7C6E09342AF6C43 /* Build configuration list for PBXNativeTarget "Pods-SimpleGradientButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4289B20E5228148FFDD1FA7849DA3CB2 /* Debug */,
+				BD77AE530507787B3ABC264F16A1BE6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'SimpleGradientButton_Example' do
+  pod 'SimpleGradientButton', :path => '../'
+end

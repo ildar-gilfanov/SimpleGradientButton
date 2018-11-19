@@ -1,0 +1,16 @@
+PODS:
+  - SimpleGradientButton (1.0.0)
+
+DEPENDENCIES:
+  - SimpleGradientButton (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleGradientButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleGradientButton: 9dfcb9259f5283532aa3302afe1d4402b082dafe
+
+PODFILE CHECKSUM: 81e439800737438a12438c8730ef96969e40b6dc
+
+COCOAPODS: 1.5.3
